@@ -1,3 +1,12 @@
+ review-data-types
+// int variables
+var one = 1;
+var two = 2;
+
+//boolean variables
+var x = true;
+var y = false;
+
 var anchor = document.querySelector('a');
 console.log(anchor);
 var allAnchor = document.querySelectorAll('a');
@@ -23,3 +32,4 @@ console.log(btn[0]);
 btn[0].style.padding = '10px'; 
 
 btn[0].style.fontSize = '22px';
+develop
