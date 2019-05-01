@@ -16,7 +16,24 @@ fruits.push('strawberry');
 
 // do while
 var index = 0;
-do {
+/* do {
     console.log(fruits[index]);
     index++;
-} while (index < fruits.length);
+} while (index < fruits.length); */
+
+// while
+/* while (index < fruits.length) {
+    console.log(fruits[index]);
+    index++;
+} */
+
+// for in
+fruits.foo = 'test';
+for (var i in fruits) {
+    console.log(i);
+}
+
+// for of
+for (var i of fruits) {
+    console.log(i);
+}
