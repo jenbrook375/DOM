@@ -16,7 +16,18 @@ var cnclBtnSelector = document.querySelector('.cancel');
 cnclBtnSelector.addEventListener('click', function(){
     var response = confirm('Are you sure you want to cancel?');
     console.log(response);
+    switch(response){
+        case true:
+        alert('Cancel confirmed!')
+        break;
+        case false:
+        break;
+    }
+    
+    
 });
+
+
 
 /* var doc = document.getElementById('document');
 var docKeyEvent = document.querySelector('#document');
