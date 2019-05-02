@@ -1,4 +1,3 @@
- review-data-types
 // int variables
 var one = 1;
 var two = 2;
@@ -32,4 +31,4 @@ console.log(btn[0]);
 btn[0].style.padding = '10px'; 
 
 btn[0].style.fontSize = '22px';
-develop
+
