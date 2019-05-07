@@ -26,3 +26,14 @@ if (name && isNaN(name)){
 }
 //ternary 
 // (name === "" || name === " " || parseInt(name));
+excludedName = ['ppopface', 'idiot'];
+var isExcluded = excludedName.find(function(excluded){
+    return excluded ===name;
+});
+
+// arrow function
+var newIsExcluded = excludedName.find((excluded) => excluded === name);
+
+if (name && isNaN(name) && !isExcluded) {
+    
+}
